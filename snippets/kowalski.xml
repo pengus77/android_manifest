@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pengus77" fetch="ssh://git@github.com/pengus77" revision="aosp_r" />
+
+  <!-- External repos -->
+  <project path="external/selinux" name="external_selinux" remote="pengus77" revision="eleven" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="pengus77" />
+  
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pengus77" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pengus77" revision="eleven" />
+  <project path="hardware/libhardware"  name="hardware_libhardware"  remote="pengus77" revision="eleven" />
+  <project path="hardware/libhardware_legacy"  name="hardware_libhardware_legacy"  remote="pengus77" revision="eleven" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pengus77" revision="eleven" />
+  <project path="frameworks/base" name="frameworks_base" remote="pengus77" />
+  <project path="frameworks/native" name="frameworks_native" remote="pengus77" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pengus77" revision="eleven" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pengus77" revision="eleven" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pengus77" revision="eleven" />
+
+  <!-- Build repos -->
+  <project path="build/make" name="build_make" remote="pengus77">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="build_soong" remote="pengus77" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="vendor/kowalski" name="vendor_kowalski" remote="pengus77" />
+
+  <!-- General repos -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="pengus77" revision="eleven" />
+  <project path="bionic" name="bionic" remote="pengus77" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pengus77" revision="eleven" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pengus77" revision="eleven" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pengus77" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pengus77" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pengus77" />
+ 
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="pengus77" revision="eleven" />
+  <project path="system/core" name="system_core" remote="pengus77" />
+  
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pengus77" clone-depth="1" revision="eleven" />
+	
+</manifest>

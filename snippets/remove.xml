@@ -49,7 +49,10 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
-  
+
+  <!-- Applications -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+ 
   <!-- External repos -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />

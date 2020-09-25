@@ -839,6 +839,6 @@
   <!-- Add some Potato repos -->
   <include name="snippets/potato.xml" />
 
-  <!-- Add all CesiumOS repos -->
-  <include name="snippets/cesium.xml" />
+  <!-- Add all KowalskiOS repos -->
+  <include name="snippets/kowalski.xml" />
 </manifest>
