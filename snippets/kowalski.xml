@@ -5,22 +5,22 @@
   <remote name="cesium" fetch="https://github.com/CesiumOS-org" revision="eleven" />
 
   <!-- External repos -->
-  <project path="external/selinux" name="external_selinux" remote="pengus77" revision="eleven" />
+  <project path="external/selinux" name="external_selinux" remote="pengus77" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pengus77" />
   
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pengus77" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pengus77" revision="eleven" />
-  <project path="hardware/libhardware"  name="hardware_libhardware"  remote="pengus77" revision="eleven" />
-  <project path="hardware/libhardware_legacy"  name="hardware_libhardware_legacy"  remote="pengus77" revision="eleven" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pengus77" />
+  <project path="hardware/libhardware"  name="hardware_libhardware"  remote="pengus77" />
+  <project path="hardware/libhardware_legacy"  name="hardware_libhardware_legacy"  remote="pengus77" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pengus77" revision="eleven" />
+  <project path="frameworks/av" name="frameworks_av" remote="pengus77" />
   <project path="frameworks/base" name="frameworks_base" remote="pengus77" />
   <project path="frameworks/native" name="frameworks_native" remote="pengus77" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pengus77" revision="eleven" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pengus77" revision="eleven" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pengus77" revision="eleven" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pengus77" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pengus77" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pengus77" />
 
   <!-- Build repos -->
   <project path="build/make" name="build_make" remote="pengus77">
@@ -42,10 +42,10 @@
   <project path="platform_testing" name="platform_testing" remote="pengus77" />
 
   <!-- General repos -->
-  <project path="bootable/recovery" name="bootable_recovery" remote="pengus77" revision="eleven" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pengus77" />
   <project path="bionic" name="bionic" remote="pengus77" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pengus77" revision="eleven" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pengus77" revision="eleven" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pengus77" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pengus77" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="pengus77" />
@@ -57,10 +57,10 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cesium" />
  
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="pengus77" revision="eleven" />
+  <project path="system/bt" name="system_bt" remote="pengus77" />
   <project path="system/core" name="system_core" remote="pengus77" />
   
   <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pengus77" clone-depth="1" revision="eleven" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pengus77" clone-depth="1" />
 	
 </manifest>
