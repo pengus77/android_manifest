@@ -57,6 +57,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pengus77" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cesium" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="pengus77" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pengus77" />
  
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pengus77" />
@@ -65,5 +66,4 @@
   
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pengus77" clone-depth="1" />
-	
 </manifest>
