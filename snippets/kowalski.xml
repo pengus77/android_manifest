@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="pengus77" fetch="ssh://git@github.com/pengus77" revision="aosp_r" />
-  <remote name="cesium" fetch="https://github.com/CesiumOS-org" revision="eleven" />
 
   <!-- External repos -->
   <project path="external/selinux" name="external_selinux" remote="pengus77" />
@@ -55,7 +54,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pengus77" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pengus77" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pengus77" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cesium" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pengus77" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="pengus77" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pengus77" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pengus77" />
