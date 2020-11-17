@@ -58,6 +58,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="pengus77" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pengus77" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pengus77" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pengus77" />
  
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pengus77" />
