@@ -67,4 +67,7 @@
   
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pengus77" clone-depth="1" />
+
+  <!-- QCOM Hardware -->
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="pengus77" />
 </manifest>
