@@ -38,6 +38,7 @@
   </project>
 
   <project path="vendor/kowalski" name="vendor_kowalski" remote="pengus77" />
+  <project path="vendor/support" name="vendor_support" remote="pengus77" />
   <project path="platform_testing" name="platform_testing" remote="pengus77" />
 
   <!-- General repos -->
