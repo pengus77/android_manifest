@@ -51,7 +51,6 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
   </project>
 
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="lineage-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="lineage-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="lineage-caf-sdm845" />
 

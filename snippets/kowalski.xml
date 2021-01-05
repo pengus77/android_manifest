@@ -12,6 +12,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pengus77" />
   <project path="hardware/libhardware"  name="hardware_libhardware"  remote="pengus77" />
   <project path="hardware/libhardware_legacy"  name="hardware_libhardware_legacy"  remote="pengus77" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="pengus77" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pengus77" />
