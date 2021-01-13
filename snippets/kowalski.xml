@@ -67,6 +67,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pengus77" />
   <project path="system/core" name="system_core" remote="pengus77" />
+  <project path="system/security" name="system_security" remote="pengus77" />
   <project path="system/update_engine" name="system_update_engine" remote="pengus77" />
   
   <!-- Prebuilts -->
